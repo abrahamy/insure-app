@@ -76,8 +76,8 @@ category = "main"
 description = "django-cors-headers is a Django application for handling the server headers required for Cross-Origin Resource Sharing (CORS)."
 name = "django-cors-headers"
 optional = false
-python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
-version = "2.5.2"
+python-versions = ">=3.5"
+version = "3.2.0"
 
 [package.dependencies]
 Django = ">=1.11"
@@ -200,7 +200,7 @@ python-versions = "*"
 version = "1.11.1"
 
 [metadata]
-content-hash = "e162a20a01841012f1abe3cc1b3c769708c90da562923576dff9360f6b14dd6f"
+content-hash = "05e0db8d7e1ba2080449cf1e580a1184e6256ba373ec75ce4a3edb9ce7d6fc08"
 python-versions = "^3.6"
 
 [metadata.hashes]
@@ -211,7 +211,7 @@ black = ["817243426042db1d36617910df579a54f1afd659adb96fc5032fcf4b36209739", "e0
 click = ["2335065e6395b9e67ca716de5f7526736bfa6ceead690adf616d925bdc622b13", "5b94b49521f6456670fdb30cd82a4eca9412788a93fa6dd6df72c94d5a8ff2d7"]
 colorama = ["05eed71e2e327246ad6b38c540c4a3117230b19679b875190486ddd2d721422d", "f8ac84de7840f5b9c4e3347b3c1eaa50f7e49c2b07596221daec5edaabbd7c48"]
 django = ["7c3543e4fb070d14e10926189a7fcf42ba919263b7473dceaefce34d54e8a119", "a2814bffd1f007805b19194eb0b9a331933b82bd5da1c3ba3d7b7ba16e06dc4b"]
-django-cors-headers = ["1ccedec2973087be9d73f96d58c4f6660c823efc0385581e13efb77f060d0e02", "fb44f6b9f10de847919305c3f0d38fcfbadfe0dd5cf1c866f37df66ad0dda1bb"]
+django-cors-headers = ["84933651fbbde8f2bc084bef2f077b79db1ec1389432f21dd661eaae6b3d6a95", "a8b2772582e8025412f4d4b54b617d8b707076ffd53a2b961bd24f10ec207a7c"]
 django-filter = ["3dafb7d2810790498895c22a1f31b2375795910680ac9c1432821cbedb1e176d", "a3014de317bef0cd43075a0f08dfa1d319a7ccc5733c3901fb860da70b0dda68"]
 djangorestframework = ["8a435df9007c8b7d8e69a21ef06650e3c0cbe0d4b09e55dd1bd74c89a75a9fcd", "f7a266260d656e1cf4ca54d7a7349609dc8af4fe2590edd0ecd7d7643ea94a17"]
 isort = ["01cb7e1ca5e6c5b3f235f0385057f70558b70d2f00320208825fa62887292f43", "268067462aed7eb2a1e237fcb287852f22077de3fb07964e87e00f829eea2d1a"]
